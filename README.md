@@ -1,7 +1,7 @@
 Coursera_Getting_and_Cleaning_Data_Peer_Assesment
 =================================================
 
-Getting and Cleaning Data Course Project
+Getting and Cleaning Data Course Project.
 Author: Sayan Maity
 Date:6/18/2014
 
