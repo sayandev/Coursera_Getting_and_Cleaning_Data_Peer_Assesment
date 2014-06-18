@@ -2,6 +2,8 @@ Coursera_Getting_and_Cleaning_Data_Peer_Assesment
 =================================================
 
 Getting and Cleaning Data Course Project
+#Author: Sayan Maity
+#Date:6/18/2014
 
 # Problem Description:
 
@@ -24,3 +26,18 @@ You should create one R script called run_analysis.R that does the following.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Good luck!
+
+# Steps to run this project:
+
+1. Download the data from :
+    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+2. Unzip the data into a directory into "Data".
+3. Under a root directory keep the "Data" directory and the run_analysis.R script.
+4. Use source("run_analysis.R") command in RStudio.
+5. The script will generate two files:
+   I: "Data_after_merging.csv": Contains data frame named Processed_Data.
+   II: "Tidy_dataset_with_average_of_each_variable_for_each_activity_and_each_subject.csv": Contains data frame named           tidy_dataset.
+6. To reuse the tidy dataset use Finally, use 
+  data <-read.csv("Tidy_dataset_with_average_of_each_variable_for_each_activity_and_each_subject.csv") command in RStudio   to read the file. 
+7. We are supposed to get the average of each variable for each activity and each subject, and there are 6 activities in     total and 30 subjects in total, we have 180 rows with all combinations for each of the 66 features.
+
